@@ -9,6 +9,8 @@ import { ServerElementComponent } from './server-element/server-element.componen
 import { GameControlComponent } from './game-control/game-control.component';
 import { OddComponent } from './odd/odd.component';
 import { EvenComponent } from './even/even.component';
+import { HoverDirective } from './hover.directive';
+import { BetterhoverDirective } from './betterhover.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { EvenComponent } from './even/even.component';
     ServerElementComponent,
     GameControlComponent,
     OddComponent,
-    EvenComponent
+    EvenComponent,
+    HoverDirective,
+    BetterhoverDirective
   ],
   imports: [
     BrowserModule,
